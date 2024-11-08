@@ -437,7 +437,7 @@ class summarizer:
 
 		##########
 		# 1. for center, add new samples (possibly add and merge clusters) by add_sample,
-		# 2. for non-center, check if the cluster limit is reached, if so, remove a noncenter vis rs
+		# 2. for non-center, check if the cluster limit is reached, if so, remove a noncenter via rs
 		if self.buffer_size + 1 > self.buffer_limit:
 			if is_newcenter:
 				if self.loss_ada:
